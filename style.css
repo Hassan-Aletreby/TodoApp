@@ -157,10 +157,8 @@ body{
  /* _____________________________________________________________________________________ */
  @media (max-width: 480px) {
         #container {
-            padding: 8px;
             border-radius: 0px;
             border: none;
-            width: calc(100% - 16px);
             margin: 0;
         }
         #head {
@@ -198,7 +196,7 @@ body{
     
         #mission {
             width: 100%;
-            margin: 8px auto;
+            margin: 8px 0px;
             border-radius: 6px;
         }
     
@@ -215,7 +213,6 @@ body{
         }
     
         #mission__list {
-            padding: 8px;
             border-radius: 6px;
             font-size: 14px;
         }
