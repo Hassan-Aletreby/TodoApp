@@ -159,6 +159,10 @@ body{
     body{
     background-color: rgb(148, 148, 148);
     }
+    *{
+        margin: 0;
+        padding: 0;
+    }
         #container {
             border-radius: 0px;
             border: none;
@@ -166,6 +170,8 @@ body{
             display: flex;
             align-items: center;
             justify-content: center;
+            flex-direction: column;
+            gap: 8px;
             margin: 0;
             padding: 0;
         }
@@ -174,9 +180,10 @@ body{
             display: flex;
             align-items: center;
             justify-content: center;
-            padding-bottom: 8px;
+            padding-bottom: 0;
+            padding: 6px 0;
             border-bottom: 1px solid black;
-            margin: 8px 0;
+            margin: 0;
         }
         #head h3 {
             font-size: 24px;
@@ -185,6 +192,7 @@ body{
         #add {
             width: 90%;
             margin: 0 auto;
+            padding: 0;
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -198,14 +206,15 @@ body{
             width: 25%;
         }
         #add #input {
-            padding: 8px;            
+            padding: 6px;            
             font-size: 14px;
             width: 60%;
         }
     
         #mission {
             width: 90%;
-           
+            padding: 0;
+            margin: 0;
             border-radius: 6px;
         }
     
@@ -219,26 +228,27 @@ body{
         #date {
             gap: 4px;
             font-size: 10px;
+            margin-top: 0;
         }
     
         #mission__list {
             border-radius: 6px;
             font-size: 14px;
-            padding:0 16px;
+            padding:0 8px;
         }
         #task {
-            padding: 4px;
+            padding: 6px;
         }
         #task__action {
-            gap: 16px;
+            gap: 18px;
         }
     
         .icon {
             display: flex;
             align-items: center;
             justify-content: center;
-            padding: 4px;
-           width: 24px;
-           height: 24px;
+            padding: 6px;
+           width: 22px;
+           height: 22px;
         }
  }
