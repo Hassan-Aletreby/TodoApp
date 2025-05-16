@@ -192,7 +192,7 @@ body{
         #add {
             width: 90%;
             margin: 0 auto;
-            padding: 0;
+            padding: 0 8px;
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -206,7 +206,7 @@ body{
             width: 25%;
         }
         #add #input {
-            padding: 6px;            
+            padding: 8px;            
             font-size: 14px;
             width: 60%;
         }
