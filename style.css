@@ -177,7 +177,7 @@ body{
         }
         #head h3 {
             font-size: 24px;
-            font-weight: 600;
+            font-weight: 700;
         }
         #add {
             width: 100%;
@@ -191,7 +191,7 @@ body{
             padding: 4px 8px;
             border-radius: 4px;
             font-size: 14px;
-            font-weight: 600;
+            font-weight: 700;
             width: 25%;
         }
         #add #input {
@@ -211,7 +211,7 @@ body{
         #mission h4 {
             font-size: 22px;
             font-weight: 600;
-            margin-bottom: 2px;
+            margin-bottom: 0px;
         }
     
         #date {
@@ -222,7 +222,7 @@ body{
         #mission__list {
             border-radius: 6px;
             font-size: 14px;
-            margin: 8px 0;
+            padding:0 16px;
         }
         #task {
             padding: 4px;
