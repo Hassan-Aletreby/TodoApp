@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(76, 76, 76);
+    font-family: "Source Sans 3", sans-serif;
+}
+#container{
+    background-color: rgb(148, 148, 148);
+    padding: 14px;
+    border-radius: 12px;
+    border: 4px solid black;
+    width: 90%;
+    margin: 3% auto;
+    max-height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#head{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 12px;
+    border-bottom: 2px solid black;
+    margin: 12px 0;
+}
+#head h3 {
+    font-size: 42px;
+    font-weight: 800;
+}
+#add {
+    width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+}
+#add #add__btn{
+    background-color: rgba(255, 255, 255, 0#456);
+        padding: 14px 16px;
+        border-radius: 6px;
+        cursor: pointer;
+        border: 0;
+        font-size: 22px;
+        font-weight: 800;
+        cursor: pointer;
+        width: 10%;
+        outline: none;
+        transition: all .3s ease-in-out;
+}
+#add__btn:hover {
+    background-color: rgb(76, 76, 76);
+    color: white;
+}
+#add #input{
+    background-color: rgba(255, 255, 255, 0#456);
+    padding: 16px 8px;
+    border-radius: 6px;
+    border: 0;
+    font-size: 22px;
+    width: 40%;
+    outline: none;
+}
+#mission{
+    width: 100%;
+    margin: 24px; 
+    max-height: 650px;
+    overflow-y: scroll;
+    border-radius: 12px;
+}
+#mission::-webkit-scrollbar {
+    width: 12px;
+    border-radius: 12px;
+}
+
+#mission::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 12px;
+}
+
+#mission::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0#456);
+    border-radius: 12px;
+    border: 2px solid white;
+}
+#mission h4{
+    font-size: 28px;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+#date{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 6px;
+    font-size: 16px;
+}
+
+#mission__list{
+    background: white;
+    padding: 16px 24px;
+    border-radius: 6px;
+    border: 0;
+    font-size: 22px;
+}
+#task , #task__action{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#task{
+    transition: all .3s ease-in-out;
+    padding: 12px;
+    border-bottom: 1px solid black;
+    transition: all .3s ease-in-out;
+}
+
+#task:hover{
+    box-shadow: 0px 2px 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+#task__action{
+    width: 50%;
+    justify-content: center;
+    gap: 20%;
+}
+.icon{
+    border-radius: 50%;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+.icon:hover{
+    transform: scale(1.1);
+}
+.edit{
+    background-color: blue;
+}
+.delete {
+    background-color: red;
+}
+.done {
+    background-color: green;
+}
+ .Done{
+    background-color: rgb(69, 192, 69);
+ }
+
+ /* _____________________________________________________________________________________ */
+ @media (max-width: 480px) {
+        #container {
+            padding: 8px;
+            border-radius: 0px;
+            border: 2px solid black;
+            width: calc(100% - 18px);
+            margin: 0;
+        }
+        #head {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-bottom: 8px;
+            border-bottom: 1px solid black;
+            margin: 8px 0;
+        }
+        #head h3 {
+            font-size: 24px;
+            font-weight: 600;
+        }
+        #add {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+    
+        #add #add__btn {
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 14px;
+            font-weight: 600;
+            width: 25%;
+        }
+        #add #input {
+            padding: 5px 8px;            
+            font-size: 14px;
+            width: 60%;
+        }
+    
+        #mission {
+            width: 100%;
+            margin: 12px;
+            border-radius: 6px;
+        }
+    
+    
+        #mission h4 {
+            font-size: 22px;
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+    
+        #date {
+            gap: 4px;
+            font-size: 12px;
+        }
+    
+        #mission__list {
+            padding: 8px 12px;
+            border-radius: 6px;
+            font-size: 14px;
+        }
+        #task {
+            padding: 4px;
+        }
+        #task__action {
+            gap: 16px;
+        }
+    
+        .icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 4px;
+           width: 24px;
+           height: 24px;
+        }
+ }
