@@ -37,8 +37,7 @@ body{
     width: 100%;
         display: flex;
         align-items: center;
-        justify-content: center;
-        gap: 50px;
+        justify-content: space-between;
 }
 #add #add__btn{
     background-color: rgba(255, 255, 255, 0#456);
@@ -206,7 +205,7 @@ body{
             width: 25%;
         }
         #add #input {
-            padding: 8px;            
+            padding: 7px;            
             font-size: 14px;
             width: 60%;
         }
@@ -216,6 +215,7 @@ body{
             padding: 0;
             margin: 0;
             border-radius: 6px;
+    overflow-y: auto;
         }
     
     
