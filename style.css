@@ -159,8 +159,8 @@ body{
         #container {
             padding: 8px;
             border-radius: 0px;
-            border: 2px solid black;
-            width: calc(100% - 18px);
+            border: none;
+            width: calc(100% - 16px);
             margin: 0;
         }
         #head {
