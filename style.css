@@ -159,8 +159,12 @@ body{
         #container {
             border-radius: 0px;
             border: none;
-            width: 100%;
+            width: calc(100% - 24px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
             margin: 0;
+            padding: 12px;
         }
         #head {
             width: 100%;
@@ -177,6 +181,7 @@ body{
         }
         #add {
             width: 100%;
+            margin: 0;
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -197,7 +202,7 @@ body{
     
         #mission {
             width: 100%;
-            margin: 8px 0px;
+            margin: 8px 0;
             border-radius: 6px;
         }
     
@@ -216,6 +221,7 @@ body{
         #mission__list {
             border-radius: 6px;
             font-size: 14px;
+            margin: 0;
         }
         #task {
             padding: 4px;
